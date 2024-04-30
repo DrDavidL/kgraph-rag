@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rag-chat"
+version = "0.1.0"
+description = ""
+authors = ["David Liebovitz <DavidL@northwestern.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.10,<3.12"
+streamlit = "^1.33.0"
+graphlit-client = "^1.0.20240429002"
+
+[tool.poetry.group.dev.dependencies]
+streamlit-extras = "^0.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
